@@ -9,7 +9,7 @@ from ModelLoader import load_model
 import torch
 
 # ✅ 사용자 입력: 분석할 MP3 파일 경로
-input_mp3_path = Path("D:/2025_work/2025_VoicePhshing_Detection_Model/dataset/phishing_dataset/sample/딥보이스_예시.mp3")
+input_mp3_path = Path("D:/Capstone/label_1/딥보이스_예시.mp3")
 
 # ✅ 1단계: MP3 → WAV 변환
 print("\n🔊 [1단계] MP3 → WAV 변환 시작")
